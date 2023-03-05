@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.body-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main-container{
+    width: 55%;
+    margin: auto;
+    background-color:darkslategray;
+    padding: 20px 40px;
+}
+
+.phone-container{
+    background-color: bisque;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.phone-title{
+    margin-right: 50px;
+}
+
+.phone-details{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+.minus{
+    padding: 5px 10px;
+    background-color: darkseagreen;
+}
+
+.plus{
+    padding: 5px 10px;
+    background-color: darkseagreen;
+}
+
+.plus:hover{
+    background-color: rgb(117, 156, 117);
+}
+
+.minus:hover{
+    background-color: rgb(117, 156, 117);
+}
+
+.phone-quantity{
+    height: 20px;
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.phone-value{
+    margin-left: 20px;
+}
+
+.total-container{
+    background-color: bisque;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 20px;
+}
